@@ -17,10 +17,10 @@ echo
 
 # Test home page
 echo "Fetching home page..."
-curl -X GET http://0.0.0.0:5000/4-hbnb/
+curl -X GET http://0.0.0.0:5000/101-hbnb/
 echo
 
 # Check API status indicator in home page
 echo "Checking API status indicator in home page..."
-curl -X GET http://0.0.0.0:5000/4-hbnb/ | grep 'id="api_status"'
+curl -X GET http://0.0.0.0:5000/101-hbnb/ | grep 'id="api_status"'
 echo
